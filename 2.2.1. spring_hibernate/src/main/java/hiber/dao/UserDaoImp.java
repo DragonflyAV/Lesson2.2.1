@@ -11,7 +11,6 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Repository
-@Transactional(readOnly = true)
 public class UserDaoImp implements UserDao {
    private final SessionFactory sessionFactory;
 
